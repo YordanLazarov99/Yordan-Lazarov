@@ -49,6 +49,7 @@ body {
 
 /* Flip the card on hover */
 .container:hover .card,
+.back, .container:active .card,
 .back {
     transform: rotateY(-180deg) translateZ(1px);
     transition-duration: 1.1s;
