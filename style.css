@@ -130,7 +130,7 @@ p {
         transform: scale(.5);
     }
 
-    .container:hover .card {
+    .container:hover .card, .container:active .card {
         transform: scale(.5) rotateY(-180deg) translateZ(1px);
     }
 }
